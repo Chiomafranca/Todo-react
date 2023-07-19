@@ -1,0 +1,88 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url("https://media.istockphoto.com/id/905732894/photo/open-blank-notepad-on-a-wooden-table.jpg?s=612x612&w=0&k=20&c=hAH1UmgKETNwsosUKS5pKTJn4wpuaja7HQVZ0Zmgpcs=");
+  background-repeat: no-repeat;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+}
+
+.checked {
+  text-decoration: line-through;
+}
+
+.notchecked{
+  text-decoration: none;
+}
+form{
+  margin-top: 3rem;
+}
+
+form input{
+  width: 50%;
+  height: 35px;
+  outline: none;
+  border: none;
+  border-radius: 16px 0px 16px 0px;
+  background-color: rgba(255, 0, 0, 0.5);
+  color: white; 
+  
+}
+
+input::placeholder {
+  color: rgba(0, 0, 200, 0.5); 
+}
+
+
+form button{
+  width: 10%;
+  height: 35px;
+  outline: none;
+  border: none;
+  border-radius: 16px 0px 16px 0px;
+  background-color: rgba(255, 0, 0, 0.5);
+  color: white;
+  cursor: pointer;
+ 
+}
+        
+.todos{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 3rem;
+  font-size: 20px;
+   background-color: rgba(0, 0, 200, 0.5);
+  width: 50%;
+  height: 35px;
+  margin: 0 auto;
+  margin-top: 2.5rem;
+  color: white;
+  border-radius: 16px 0px 16px 0px;
+  opacity: 2.0px;
+}
+
+ .input1{
+   font-size: 4rem;
+}
+.todos button{
+  width: 20%;
+  height: 30px;
+  border-radius: 16px 0px 16px 0px;
+  border: none;
+  outline: none;
+  background-color: rgba(255, 0, 0, 0.5);
+  
+  color: rgba(0, 0, 200, 0.5);
+  cursor: pointer; 
+}
+.last{
+  font-size: 20px;
+  margin-top: 10px;
+}
